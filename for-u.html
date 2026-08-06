@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You 💙</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💙</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --bg1: #18041d;
+      --bg2: #2c0728;
+      --bg3: #5a1038;
+      --text: #fff7fb;
+      --accent: #ff6fa8;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: "Inter", sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, var(--bg1), var(--bg2), var(--bg3));
+      text-align: center;
+    }
+    .card {
+      width: min(760px, 100%);
+      padding: 36px 28px;
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(14px);
+    }
+    h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 12px; }
+    p { font-size: 1.05rem; line-height: 1.75; margin: 0 0 16px; }
+    .heart { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>For You <span class="heart">💗</span></h1>
+    <p>This page is ready to be published.</p>
+    <p>Once GitHub Pages is enabled for the repository, this URL will work.</p>
+  </main>
+</body>
+</html>
